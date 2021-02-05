@@ -15,11 +15,22 @@ body {
 }
 
 .first_bg {
-	left: -15.625rem;
-	top: -15.625rem;
-	min-height: 34.375rem;
-	min-width: 34.375rem;
+	height: 450px;
+	width: 450px;
 	position: relative;
 	background-image: url('./images/bg-pattern-top.svg');
 	background-size: cover;
+	background-position:  top -200px left -300px;
+	background-repeat: no-repeat;
+
+}
+
+.second_bg {
+	right: -45px;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	background-image: url('./images/bg-pattern-bottom.svg');
+	background-size: cover;
+	background-position: bottom right;
 }
