@@ -14,21 +14,33 @@ body {
 	background-color: hsl(185, 75%, 39%);
 }
 
-.first_bg {
+.backgroundImage {
 	position: relative;
-	background-image: url('./images/bg-pattern-top.svg');
 	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 300px;
-	background-position: center 35%;
+	min-height: 368px;
+	/* border: 1px solid red; */
 }
 
-.second_bg {
-	right: -45px;
-	height: 300px;
-	width: 300px;
-	position: relative;
+.backgroundImage_top::after {
+	content: "";
+	position: absolute;
+	width: 144%;
+	height: 155%;
+	left: -78%;
+	top: -69%;
+	background-size: 94%;
+	background-repeat: no-repeat;
+	background-image: url('./images/bg-pattern-top.svg');
+}
+
+.backgroundImage_bottom::after {
+	content: "";
+	position: absolute;
+	width: 60%;
+	height: 82%;
+	background-size: 235%;
+	background-repeat: no-repeat;
 	background-image: url('./images/bg-pattern-bottom.svg');
-	background-size: cover;
-	background-position: bottom right;
+	left: 40%;
+	top: 17%;
 }
