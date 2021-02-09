@@ -37,11 +37,15 @@ body {
 .backgroundImage_bottom::after {
 	content: "";
 	position: absolute;
-	width: 60%;
-	height: 82%;
-	background-size: 235%;
-	background-repeat: no-repeat;
-	background-image: url('./images/bg-pattern-bottom.svg');
+	width: 144%;
+	height: 155%;
 	left: 40%;
 	top: 17%;
+	background-size: 94%;
+	background-repeat: no-repeat;
+	background-image: url('./images/bg-pattern-bottom.svg');
+}
+
+.card {
+	
 }
