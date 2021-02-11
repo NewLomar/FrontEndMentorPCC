@@ -16,14 +16,14 @@ body {
 	font-size: 1.125rem;
 }
 
-.topImage{
+.topImage {
 	position: relative;
 	background-image: url('./images/bg-pattern-top.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 115vh;
-	top: -125vh;
+	top: -165vh;
 	left: -20vh;
 }
 
@@ -34,16 +34,23 @@ body {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	height: 125vh;
-	top: -125vh;
+	top: -165vh;
 	right: -24vh;
 }
 
-.card {
-	margin-top: 45vh;
+.container {
+	width: 100vw;
+	height: 100vh;
 	display: flex;
-	justify-self: center;
-	align-self: center;
-	height: 10vh;
-	width: 15vw;
-	box-shadow: 0 0 10px black;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background: rgba(255,255,255, 2);
+	display: flex;
+	height: 350px;
+	width: 350px;
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
 }
