@@ -17,6 +17,10 @@ body {
 	font-family: 'Kumbh Sans', sans-serif;;
 }
 
+/* main {
+	overflow: hidden;
+} */
+
 .topImage {
 	position: relative;
 	background-image: url('./images/bg-pattern-top.svg');
@@ -26,6 +30,20 @@ body {
 	height: 115vh;
 	top: -165vh;
 	left: -20vh;
+}
+
+@media only screen and (max-width: 450px) {
+	.topImage {
+		position: relative;
+		background-image: url('./images/bg-pattern-top.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: top left;
+		height: 115vh;
+    	top: -136vh;
+    	left: -38vh;
+    	width: 125vw;
+	}
 }
 
 .bottomImage {
@@ -38,6 +56,21 @@ body {
 	top: -165vh;
 	right: -24vh;
 }
+
+@media only screen and (max-width: 450px) {
+	.bottomImage {
+		position: relative;
+		background-image: url('./images/bg-pattern-top.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: top left;
+		height: 125vh;
+    	top: -160vh;
+    	right: -27vh;
+    	width: 125vw;
+	}
+}
+
 
 .container {
 	width: 100vw;
@@ -52,9 +85,8 @@ body {
 	background: rgba(255, 255, 255, 1);
 	display: flex;
 	height: 370px;
-	width: 350px;
+	width: 349px;
 	border-radius: 20px;
-	/* box-shadow: 1px 1px 10px black; */
 }
 
 .backgroundCard {
@@ -70,7 +102,7 @@ body {
 .name_age {
 	font-size: 1.125rem;
 	display: inline-block;
-	width: 360px;
+	width: 349px;
 	position: absolute;
 	text-align: center;
 	margin-top: 200px;
@@ -89,7 +121,7 @@ body {
 .stats {
 	position: absolute;
 	margin-top: 300px;
-	width: 350px;
+	width: 349px;
 }
 
 .values {
@@ -106,10 +138,10 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: center;
 	margin-top: 10px;
-	margin-left: 60px;
 	color: hsl(227, 10%, 46%);
 	font-weight: 400;
 	font-size: 0.75rem;
+	text-align: center;
 }
 
 img {
@@ -131,11 +163,11 @@ hr {
 	color: white;
 	margin-top: 280px;
 	position: absolute;
-	height: 0.5px;
+	height: 1px;
 	width: 350px;
 }
 
-/* topImage media query {
+/* .topImage {
 	position: relative;
 	background-image: url('./images/bg-pattern-top.svg');
 	background-size: contain;
@@ -145,10 +177,10 @@ hr {
 	top: -135vh;
 	left: -42vh;
 	width: 132vw;
-} */
+}
 
 
-/* bottomImage media query {
+.bottomImage {
 	position: relative;
 	background-image: url('./images/bg-pattern-top.svg');
 	background-size: contain;
