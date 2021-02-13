@@ -128,9 +128,34 @@ p {
 }
 
 hr {
-	color: lightgrey;
+	color: white;
 	margin-top: 280px;
 	position: absolute;
-	height: 1px;
+	height: 0.5px;
 	width: 350px;
 }
+
+/* topImage media query {
+	position: relative;
+	background-image: url('./images/bg-pattern-top.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 121vh;
+	top: -135vh;
+	left: -42vh;
+	width: 132vw;
+} */
+
+
+/* bottomImage media query {
+	position: relative;
+	background-image: url('./images/bg-pattern-top.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 121vh;
+	top: -210vh;
+	right: -25vh;
+	width: 131vw;
+} */
