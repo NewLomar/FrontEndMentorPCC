@@ -67,6 +67,50 @@ body {
 	background-repeat: no-repeat;
 }
 
+.name_age {
+	font-size: 1.125rem;
+	display: inline-block;
+	width: 360px;
+	position: absolute;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.name {
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+.age {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+}
+
+.stats {
+	position: absolute;
+	margin-top: 300px;
+	width: 350px;
+}
+
+.values {
+	margin-left: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-around;
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+.names {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: 60px;
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+	font-size: 0.75rem;
+}
 
 img {
 	position: absolute;
@@ -77,10 +121,16 @@ img {
 	margin-left: 130px;
 }
 
-.name_age {
-	display: inline-block;
-	width: 360px;
+p {
+	font-weight: 400;
+	color: hsl(227, 10%, 46%);
+	font-size: 0.8rem;
+}
+
+hr {
+	color: lightgrey;
+	margin-top: 280px;
 	position: absolute;
-	text-align: center;
-	margin-top: 160px;
+	height: 1px;
+	width: 350px;
 }
